@@ -1,6 +1,6 @@
-#Given a string s, return the length of the longest substring that contains no repeating characters.
+'''Given a string s, return the length of the longest substring that contains no repeating characters.
 
-#A substring must be contiguous.
+A substring must be contiguous. '''
 
 def lengthOfLongestSubstring(s):
   
