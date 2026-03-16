@@ -17,6 +17,6 @@ def lengthOfLongestSubstring(s):
           
         freq.add(s[end])
       
-        max_length=max(len(freq),max_length)
+        max_length=max(max_length, end-start+1)
       
     return max_length
